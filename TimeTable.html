@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weekly Timetable</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            width: 100%;
+            font-size: 17px;
+        }
+
+        th, td {
+            border: 1px solid #c2c2c2;
+            padding: 15px;
+            font-weight: 500;
+        }
+
+        th {
+            background: #e4e7ec;
+            font-size: 18px;
+        }
+
+        /* DAY column */
+        td.day {
+            font-weight: bold;
+            background: #f5f5f5;
+        }
+
+        /* SUBJECT COLOR PATTERNS */
+        .yellow  { background: #fff9c4; }  
+        .green   { background: #e0f2f1; }
+        .peach   { background: #ffe0b2; }
+        .purple  { background: #e1bee7; }
+        .pink    { background: #f8bbd0; }
+        .blue    { background: #cfd8dc; }
+        .aqua    { background: #e0f7fa; }
+        .lightbrown { background: #efebe9; }
+
+        /* Lunch Column Vertical */
+        .lunch {
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            font-size: 20px;
+            letter-spacing: 3px;
+            font-weight: bold;
+            background: #f0f4f7;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>DAY</th>
+        <th>1</th><th>2</th><th>3</th><th>4</th><th>5</th>
+        <th class="lunch" rowspan="7">LUNCH</th>
+        <th>6</th><th>7</th><th>8</th>
+    </tr>
+
+    <tr>
+        <td class="day">MONDAY</td>
+        <td class="yellow">CN (S6) - H14 C (P)</td>
+        <td class="yellow">CN (S6) - H14 C (P)</td>
+        <td class="green">ADS (S6) - 005 (L)</td>
+        <td class="green">ADS (S6) - 005 (L)</td>
+        <td class="blue">DAA (S8) - 007 (L)</td>
+        <td class="purple">FSD (S7) - 101 (S)</td>
+        <td class="purple">FSD (S7) - 101 (S)</td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td class="day">TUESDAY</td>
+        <td class="pink">MO (S7) - 103 (T)</td>
+        <td class="pink">MO (S7) - 103 (T)</td>
+        <td class="green">CN (S6) - 107 (L)</td>
+        <td class="green">CN (S6) - 107 (L)</td>
+        <td class="blue">DAA (S8) - 107 (S)</td>
+        <td class="blue">DAA (S8) - 107 (S)</td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td class="day">WEDNESDAY</td>
+        <td class="purple">FSD (S7) - 101 (S)</td>
+        <td class="purple">FSD (S7) - 101 (S)</td>
+        <td class="peach">CIS (S5) - 101 (L)</td>
+        <td class="peach">CIS (S5) - 101 (L)</td>
+        <td class="green">DAA (S8) - 007 (L)</td>
+        <td class="peach">CIS (S5) - 006 (S)</td>
+        <td class="peach">CIS (S5) - 006 (S)</td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td class="day">THURSDAY</td>
+        <td class="pink">MO (S7) - 103 (L)</td>
+        <td class="pink">MO (S7) - 103 (L)</td>
+        <td class="green">DAA (S8) - 007 (L)</td>
+        <td class="green">DAA (S8) - 007 (L)</td>
+        <td class="aqua">Coding (S5) - H15 A</td>
+        <td></td><td></td>
+    </tr>
+
+    <tr>
+        <td class="day">FRIDAY</td>
+        <td class="lightbrown">ADS (S6) - 107 (P)</td>
+        <td class="lightbrown">ADS (S6) - 107 (P)</td>
+        <td class="purple">FSD (S7) - 404 (L)</td>
+        <td class="blue">DAA (S8) - 306 (P)</td>
+        <td class="blue">DAA (S8) - 306 (P)</td>
+        <td class="green">CN (S6) - 101 (L)</td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td class="day">SATURDAY</td>
+        <td class="peach">CIS (S5) - 003 (P)</td>
+        <td class="peach">CIS (S5) - 003 (P)</td>
+        <td class="peach">CIS (S5) - 101 (L)</td>
+        <td class="aqua">Coding (S5) - 101</td>
+        <td></td><td></td><td></td>
+    </tr>
+
+</table>
+
+</body>
+</html>
